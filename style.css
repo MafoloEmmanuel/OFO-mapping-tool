@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.content {
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+}
+nav{
+    padding: 10px;
+    text-align:right;
+}
+.nav{
+
+}
+.logo{
+    width: 50px
+}

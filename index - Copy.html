@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo and Nav Bar Alignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="">
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        img {
+            width: 100px;
+            padding: 20px
+        }
+
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav li {
+            margin: 0 10px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: rgb(25, 25, 150);
+            /* Adjust the color as needed */
+            font-weight: bolder;
+            padding: 5px;
+        }
+
+        .nav a:hover {
+            background-color: grey;
+            color: white;
+        }
+
+        @media screen and (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav {}
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="https://www.foodbev.co.za/">
+                <img src="./foodbev_logo.907e5a2c.png" alt="Logo">
+            </a>
+        </div>
+        <ul class="nav">
+            <a href="https://web.facebook.com/FoodBevSETAza" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/company/foodbev-seta/mycompany/" class="fa fa-linkedin"></a>
+            <a href="https://twitter.com/FoodBevseta" class="fa fa-twitter"></a>
+            <a href="https://www.foodbev.co.za/contact-us">Contact us</a>
+            <a href="https://www.foodbev.co.za/contact-us">Stakeholder login</a>
+        </ul>
+    </div>
+</body>
+
+</html>
